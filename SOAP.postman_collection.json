@@ -1,0 +1,47 @@
+{
+	"info": {
+		"_postman_id": "4218066f-1858-4263-9bfe-020348fedb66",
+		"name": "SOAP",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "16537046",
+		"_collection_link": "https://lively-crater-844094.postman.co/workspace/TEst-russav~c0fbdc24-e4af-47ab-83d9-a0f532cbf3a4/collection/16537046-4218066f-1858-4263-9bfe-020348fedb66?action=share&source=collection_link&creator=16537046"
+	},
+	"item": [
+		{
+			"name": "New Request",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "xml"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://webservices.oorsprong.org/websamples.countryinfo/CountryInfoService.wso?WSDL",
+					"protocol": "http",
+					"host": [
+						"webservices",
+						"oorsprong",
+						"org"
+					],
+					"path": [
+						"websamples.countryinfo",
+						"CountryInfoService.wso"
+					],
+					"query": [
+						{
+							"key": "WSDL",
+							"value": null
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
